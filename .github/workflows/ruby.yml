@@ -32,4 +32,4 @@ jobs:
         ruby-version: '3.0.5'
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Run tests
-      run: bundle exec rake
+      run: bundle exec rspec --format progress
